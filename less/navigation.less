@@ -1,1 +1,45 @@
 // Navigation Styles here
+
+nav {
+  
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 80%;
+  height: 14vh;
+  align-items: center;
+  margin-left:11%;
+  padding-left:7%;
+  padding-right: 10%;
+  border-bottom: 1px dashed grey;
+  @media @phone{
+      width:90%;
+      margin: 0;
+      padding: 0;
+      margin-left:3%;
+  }
+    .navbar {
+        
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        @media @phone {
+            width:100%;
+            padding:2%;
+        }
+
+            a {
+            
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: black;
+           
+        }
+     }
+
+   @media @phone {
+        flex-direction: column-reverse;
+        margin-top: 2%;
+    }
+}
+
